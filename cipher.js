@@ -1,7 +1,7 @@
 const cipher = {
 
 
-    encode: function (mensage, offset) {
+    encode: function (offset, mensage) {
         let encrypt = 0
         let replaced = []
         let encryptword = ""
@@ -31,7 +31,7 @@ const cipher = {
     }
 
 ,
-    decode: function (mensage, offset) {
+    decode: function (offset, mensage) {
         let encrypt = 0
         let replaced = []
         let encryptword = ""
