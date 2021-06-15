@@ -3,13 +3,13 @@ import cipher from './cipher.js';
 function butencode() {
     let password1 = document.querySelector('#senha1')
     let offset = Number(password1.value)
-    console.log(offset)
+  //  console.log(offset)
 
     let mensage = document.querySelector('textarea').value
-    console.log(mensage)   
+  //  console.log(mensage)   
     
-    let result = cipher.encode(mensage, offset)
-    console.log(result)
+    let result = cipher.encode(offset, mensage)
+  //  console.log(result)
 
     let res = document.querySelector('div#res')
     res.innerHTML = result
@@ -23,13 +23,13 @@ button1.addEventListener('click', butencode)
 function butdecode() {
     let password1 = document.querySelector('#senha1')
     let offset = Number(password1.value)
-    console.log(offset)
+  //  console.log(offset)
 
     let mensage = document.querySelector('textarea').value
-    console.log(mensage)   
+   // console.log(mensage)   
     
-    let result = cipher.decode(mensage, offset)
-    console.log(result)
+    let result = cipher.decode(offset, mensage)
+   // console.log(result)
 
     let res = document.querySelector('div#res')
     res.innerHTML = result
