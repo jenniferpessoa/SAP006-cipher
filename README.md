@@ -5,7 +5,6 @@
 * [1. Resumo do produto](#1-resumo-do-produto)
 * [2. Usuário e seus objetivos](#2-objetivos-do-usuário)
 * [3. Aplicação e funcionalidade](#3-aplicação-e-funcionalidade)
-* [4. Deploy](#4-deploy)
 
 ***
 
@@ -20,4 +19,4 @@ Para codificar, o usuário deve inserir um valor de até quatro digitos e em seg
 
 O produto permite que o usuário se sinta mais seguro em suas trocas de mensagens, que não precisam ser sempre codificadas, apenas quando há necessidade. Assim, quem controla os celulares, mesmo tendo acesso ao celular, não poderá ler a mensagem por não ter a senha, o que permite que os usuários se sintam mais seguros. 
 
-## 4. Deploy
+
